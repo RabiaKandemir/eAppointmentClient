@@ -3,11 +3,10 @@ import { FormsModule } from '@angular/forms';
 import { LoginModel } from '../../models/login.model';
 
 @Component({
-  selector: 'app-login',
-  standalone: true,
-  imports: [FormsModule],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+    selector: 'app-login',
+    imports: [FormsModule],
+    templateUrl: './login.component.html',
+    styleUrl: './login.component.css'
 })
 export class LoginComponent {
   login:LoginModel=new LoginModel();
